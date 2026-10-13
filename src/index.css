@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-cream: #f3ecde;
+  --font-word: 'Fraunces Variable', Fraunces, Georgia, serif;
+  --font-label: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: var(--color-cream);
+  -webkit-font-smoothing: antialiased;
+}
